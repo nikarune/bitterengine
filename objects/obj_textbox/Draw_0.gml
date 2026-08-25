@@ -10,5 +10,3 @@ draw_set_color(c_white);
 
 // Draw stuff
 draw_sprite_stretched(textbox_sprite, 0, _textbox_x, _textbox_y, textbox_width, textbox_height);
-
-draw_text_dbox(_text_x, _text_y, global.dialogue_pages[page], typing_progress, text_line_width, text_line_sep);

@@ -2,7 +2,6 @@
 if (follow != noone) {
 	
 	if (perfect_center) {
-		
 		var _sprite_topleft_x = follow.x - follow.sprite_xoffset;
 		var _sprite_topleft_y = follow.y - follow.sprite_yoffset;
 		
@@ -11,14 +10,11 @@ if (follow != noone) {
 		
 		x_to = _x;
 		y_to = _y;
-		
 	}
 	
 	else {
-		
 		x_to = follow.x;
 		y_to = follow.y;
-		
 	}
 	
 }
@@ -39,4 +35,4 @@ var _cam_y = y - (RES.HEIGHT / 2);
 _cam_x = clamp(_cam_x, 0, room_width - RES.WIDTH);
 _cam_y = clamp(_cam_y, 0, room_height - RES.HEIGHT);
 
-camera_set_view_pos(view_camera[0], _cam_x, _cam_y);
+camera_set_view_pos(CAM, _cam_x, _cam_y);

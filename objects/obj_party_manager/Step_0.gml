@@ -4,7 +4,6 @@ if (global.record_ref == noone) {
 }
 
 if (global.record_ref.xprevious != global.record_ref.x or global.record_ref.yprevious != global.record_ref.y) {
-	
 	var _rec = 0;
 	
 	// Update pos.
@@ -18,7 +17,6 @@ if (global.record_ref.xprevious != global.record_ref.x or global.record_ref.ypre
 		y : global.record_ref.y,
 		direction : global.record_ref.direction,
 	}
-	
 }
 
 x = global.record_ref.x;

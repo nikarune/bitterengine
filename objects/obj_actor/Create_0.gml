@@ -18,7 +18,6 @@ is_walking = false;
 #region Functions
 
 function actor_move_collide() {
-
 	is_colliding = false; // Reset is_colliding
 	
 	// Horizontal Collision
@@ -35,7 +34,6 @@ function actor_move_collide() {
 	
 	x += x_speed;
 	y += y_speed;
-	
 }
 
 #endregion

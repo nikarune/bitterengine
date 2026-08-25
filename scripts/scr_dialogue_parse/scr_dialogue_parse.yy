@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_dev_console",
+  "%Name":"scr_dialogue_parse",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_dev_console",
+  "name":"scr_dialogue_parse",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",

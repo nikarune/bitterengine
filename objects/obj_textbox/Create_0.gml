@@ -11,8 +11,6 @@ textbox_height = TEXTBOX_HEIGHT;
 textbox_sprite = spr_box;
 
 // Text
-text_typing_speed = 1;
-
 text_top_margin = TEXTBOX_TEXT_TOP_MARGIN;
 text_side_margin = TEXTBOX_TEXT_SIDE_MARGIN;
 
@@ -30,6 +28,8 @@ page_number = array_length(global.dialogue_pages);
 
 typing_progress = 0;
 text_string_length = 0;
+
+typer = dialogue_create_typer(global.dialogue_pages[page], text_x, text_y, text_line_width, text_line_sep, true);
 
 //global.dialogue_pages[0] = "This is test dialogue that{c,c_red} is red{c,c_white} but now its not{c,c_blue} blue{c,c_white} it's{c,c_aqua} AQUA{c,c_white}. but now its not now its{c,c_lime} sooo green{c,c_white}.";
 //global.dialogue_pages[1] = "oooooooooooooooooooooohhhh"

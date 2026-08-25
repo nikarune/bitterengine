@@ -11,9 +11,9 @@ enum RES {
 
 #region Camera
 
-#macro CAM_ACTIVE camera_get_active()
-#macro CAM_X camera_get_view_x(CAM_ACTIVE)
-#macro CAM_Y camera_get_view_y(CAM_ACTIVE)
+#macro CAM view_camera[0]
+#macro CAM_X camera_get_view_x(CAM)
+#macro CAM_Y camera_get_view_y(CAM)
 
 #endregion
 

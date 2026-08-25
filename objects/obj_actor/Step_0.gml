@@ -5,7 +5,6 @@ status = partym_get_status(name);
 
 // Give the party leader player controls.
 if (status == PARTY.LEADER) {
-	
 	global.record_ref = id; // The party manager will now record the position of this instance.
 
 	#region Player Controls
@@ -23,9 +22,7 @@ if (status == PARTY.LEADER) {
 	
 	// Set direction.
 	if (_input_len != 0) {
-
 		direction = _input_dir;
-		
 	}
 	
 	#endregion
@@ -36,7 +33,6 @@ if (status == PARTY.LEADER) {
 
 // Record the position of the other party members.
 else if (recording) {
-	
 	// Set the party member's position and direction.
 	x = obj_party_manager.pos[record].x;
 	y = obj_party_manager.pos[record].y;
@@ -44,7 +40,6 @@ else if (recording) {
 	
 	// Get whether the actor is walking or not.
 	is_walking = (x != xprevious or y != yprevious);
-	
 }
 
 #region Sprites
