@@ -31,7 +31,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_dev_party_manager",
+    "path":"sprites/spr_dev_party_manager/spr_dev_party_manager.yy",
+  },
   "spriteMaskId":null,
   "visible":false,
 }

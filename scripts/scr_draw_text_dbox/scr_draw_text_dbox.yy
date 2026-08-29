@@ -6,7 +6,7 @@
   "name":"scr_draw_text_dbox",
   "parent":{
     "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "path":"folders/ARCHIVE/Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

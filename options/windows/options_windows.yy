@@ -11,7 +11,7 @@
   "option_windows_description_info":"engine",
   "option_windows_disable_sandbox":false,
   "option_windows_display_cursor":true,
-  "option_windows_display_name":"bitterengine",
+  "option_windows_display_name":"bitterengine v0.0.1 build-win",
   "option_windows_enable_steam":false,
   "option_windows_executable_name":"bitterengine.exe",
   "option_windows_icon":"${options_dir}/windows/icons/icon.ico",

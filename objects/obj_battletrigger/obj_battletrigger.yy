@@ -1,16 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_manager",
+  "%Name":"obj_battletrigger",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_actor","path":"objects/obj_actor/obj_actor.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_manager",
+  "name":"obj_battletrigger",
   "overriddenProperties":[],
   "parent":{
-    "name":"Managers",
-    "path":"folders/Objects/Managers.yy",
+    "name":"Dev",
+    "path":"folders/Objects/Dev.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,9 +30,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_dev_manager",
-    "path":"sprites/spr_dev_manager/spr_dev_manager.yy",
+    "name":"spr_knight_battle",
+    "path":"sprites/spr_knight_battle/spr_knight_battle.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

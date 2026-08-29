@@ -34,4 +34,6 @@ for (var i = 0; i < array_length(commands); i++) {
 	commands[i] = string_split(commands[i], ",");
 }
 
+asterisk = (string_char_at(final_text, 1) == "*");
+
 debugmsg(commands);

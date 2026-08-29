@@ -15,12 +15,14 @@ for (var i = 1; i <= progress; i++) {
 		run_dialogue_command(commands[_command_index]);
 		_command_index = min(_command_index + 1, array_length(commands) - 1);	
 	}
-		
+	
 	// Normal line breaks (*)
 	if (_char == "*") {
 		// Reset position
-		_draw_x = offset;
-		_draw_y += text_line_sep;
+		if (i != 1) {
+			_draw_x = offset;
+			_draw_y += text_line_sep;
+		}
 			
 		if (asterisk) {
 			draw_text(x, y + _draw_y, "*");

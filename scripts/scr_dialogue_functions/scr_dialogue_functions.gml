@@ -21,14 +21,13 @@ function dialogue_run() {
 /// @desc Create a typer to draw out text. Returns the Instance ID of the typer.
 /// @returns {Id.Instance}
 
-function dialogue_create_typer(_str, _x, _y, _width, _sep, _poslock, _offset = 0, _asterisk = false) {
+function dialogue_create_typer(_str, _x, _y, _width, _sep, _poslock, _offset = 0) {
 	var _id = instance_create_depth(_x, _y, -999, obj_typer, {
 		text : _str,
 		text_line_sep : _sep,
 		text_line_width : _width,
 		pos_lock : _poslock,
 		offset : _offset,
-		asterisk : _asterisk,
 	});
 	
 	return (_id);

@@ -2,7 +2,7 @@
 // https://www.youtube.com/watch?v=P79MXZ4SsIg
 
 /// @deprecated
-/// @desc Draws text for dialogue boxes. **Is now replaced by obj_typer.**
+/// @desc Draws text for dialogue boxes. **Is now replaced by dialogue_create_typer().**
 function draw_text_dbox(_x, _y, _str, _progress, _width, _sep, _offset = 0, _asterisk = false) {
 	#region Init (change this so it only has to run once)
 	

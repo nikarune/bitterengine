@@ -11,8 +11,8 @@
   "name":"obj_textbox",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Dialogue Components",
+    "path":"folders/Objects/Dialogue Components.yy",
   },
   "parentObjectId":null,
   "persistent":false,
