@@ -2,10 +2,6 @@ var _draw_x = offset;
 var _draw_y = 0;
 
 var _command_index = 0;
-
-if (asterisk) {
-	draw_text(x, y + _draw_y, "*");
-}
 	
 for (var i = 1; i <= progress; i++) {
 	var _char = string_char_at(final_text, i);

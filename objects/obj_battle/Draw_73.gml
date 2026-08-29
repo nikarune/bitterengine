@@ -88,13 +88,13 @@ else if (current_menu == 1) {
 		draw_set_font(fn_main);
 		draw_set_color(c_white);
 		
-		draw_text(_namex, _namey, _action_name); // Draw the action name
+		draw_text(CAM_X + _namex, CAM_Y + _namey, _action_name); // Draw the action name
 		
 		// Draw init for the description
 		draw_set_font(fn_main_1);
 		draw_set_color(c_grey);
 		
-		draw_text_ext(_descx, _descy, _action_desc, BATTLE_MENU_TEXT_DESC_SEP, _text_chunk_width); // Draw the action description
+		draw_text_ext(CAM_X + _descx, CAM_Y + _descy, _action_desc, BATTLE_MENU_TEXT_DESC_SEP, _text_chunk_width); // Draw the action description
 		
 		#endregion
 		

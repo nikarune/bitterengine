@@ -21,8 +21,8 @@ for (var i = 0; i < array_length(carousel_points); i++) {
 	var _offset = (theta_offset * (array_length(carousel_points) mod 2 != 0));
 	var _point = (360 / array_length(party_units)) * i + theta;
 	
-	carousel_points[i].x = _ellipse_center_x + (_semi_horizontal_radius * dcos(_point));
-	carousel_points[i].y = _ellipse_center_y + (_semi_vertical_radius * dsin(_point));
+	carousel_points[i].x = CAM_X + (_ellipse_center_x + (_semi_horizontal_radius * dcos(_point)));
+	carousel_points[i].y = CAM_Y + (_ellipse_center_y + (_semi_vertical_radius * dsin(_point)));
 	
 }
 

@@ -73,8 +73,8 @@ var _ellipse_center_x = (_ellipse_corner_x2 + _ellipse_corner_x1) / 2;
 var _ellipse_center_y = (_ellipse_corner_y2 + _ellipse_corner_y1) / 2;
 
 enemy = instance_create_depth(
-	_ellipse_center_x,
-	_ellipse_center_y,
+	CAM_X + _ellipse_center_x,
+	CAM_Y + _ellipse_center_y,
 	-999, 
 	obj_battle_enemy
 );

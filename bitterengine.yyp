@@ -71,6 +71,7 @@
     {"id":{"name":"obj_clock","path":"objects/obj_clock/obj_clock.yy",},},
     {"id":{"name":"obj_col","path":"objects/obj_col/obj_col.yy",},},
     {"id":{"name":"obj_cutscene_manager","path":"objects/obj_cutscene_manager/obj_cutscene_manager.yy",},},
+    {"id":{"name":"obj_cutscenetrigger","path":"objects/obj_cutscenetrigger/obj_cutscenetrigger.yy",},},
     {"id":{"name":"obj_manager","path":"objects/obj_manager/obj_manager.yy",},},
     {"id":{"name":"obj_party_manager","path":"objects/obj_party_manager/obj_party_manager.yy",},},
     {"id":{"name":"obj_surface_test","path":"objects/obj_surface_test/obj_surface_test.yy",},},

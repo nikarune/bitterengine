@@ -36,4 +36,6 @@ for (var i = 0; i < array_length(commands); i++) {
 
 asterisk = (string_char_at(final_text, 1) == "*");
 
+offset = asterisk * 10;
+
 debugmsg(commands);
